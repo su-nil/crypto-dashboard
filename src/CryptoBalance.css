@@ -1,0 +1,6 @@
+.crypto-balance-wrapper {
+    display: flex;
+    align-items: center;
+    border-bottom: dashed 1px #cccccc;
+    margin: 5px 0px 0px 25px;
+}

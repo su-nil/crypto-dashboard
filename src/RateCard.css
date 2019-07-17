@@ -1,0 +1,11 @@
+.rate-card-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.rate-card-wrapper>*:not(.fa-angle-down) {
+    margin-right: 10px;
+}

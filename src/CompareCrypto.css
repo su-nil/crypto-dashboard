@@ -1,0 +1,8 @@
+.compare-crypto-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.compare-crypto-wrapper>*:not(.fa-angle-down) {
+    margin-right: 10px;
+}

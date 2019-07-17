@@ -1,0 +1,10 @@
+.CurrencyList {
+    margin-left: auto;
+}
+
+select {
+    appearance: none;
+    border: none;
+    font-weight: bold;
+    background: url('./angle-down-solid.svg') 100% no-repeat;
+}

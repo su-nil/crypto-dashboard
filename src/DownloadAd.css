@@ -1,0 +1,60 @@
+.DownloadAd {
+    background-color: rgba(75, 88, 185);
+    color: white;
+
+}
+
+.DownloadAd {
+    grid-area: downloadAd;
+    display: flex;
+    flex-direction: column;
+}
+
+.app-stores-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.app-stores-wrapper>* {
+    margin-right: 7px;
+    margin-top: 15px;
+    width: 30px;
+    height: 30px;
+    padding: 6px;
+    background-color: white;
+    border-radius: 50%;
+    color: rgba(75, 88, 185);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.google-play-wrapper {}
+
+.apple-store-wrapper {}
+
+.play {
+    font-size: 14px;
+
+}
+
+.ios {
+    font-size: 14px;
+}
+
+.dot-nav-btns {
+    font-size: 3px;
+    display: flex;
+    align-items: center;
+}
+
+.dot-nav-btns>* {
+    margin-top: 30px;
+    margin-right: 10px;
+    opacity: 0.5;
+}
+
+.dot-nav-btns .selected {
+    font-size: 6px;
+    opacity: 1;
+}

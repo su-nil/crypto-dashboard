@@ -1,0 +1,28 @@
+.BuySell {
+    display: flex;
+    justify-content: space-between;
+}
+
+.BuySell>* {
+    width: 22%;
+
+}
+
+.btn.buy {
+    background-color: rgb(149, 203, 154);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.btn.sell {
+    background-color: white;
+    color: black;
+    border-color: #ccc;
+
+    border-radius: 20px;
+    padding: 5px;
+    font-weight: bold;
+}

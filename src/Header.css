@@ -1,0 +1,24 @@
+.Header {
+    grid-area: header;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+}
+
+.Header>* {
+    padding: 20px;
+    font-size: 0.85rem;
+    font-weight: bold;
+}
+
+.Header a {
+    color: rgb(140, 140, 140);
+    padding: 5px 5px 5px 0px;
+
+}
+
+.Header a.active {
+    color: black;
+    border-bottom: solid 2px rgb(226, 112, 62);
+}

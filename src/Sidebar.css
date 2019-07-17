@@ -1,0 +1,15 @@
+.Sidebar {
+    grid-area: sidebar;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn.add-portfolio {
+    background-color: white;
+    color: black;
+    border-color: #ccc;
+    border-radius: 20px;
+    padding: 5px 25px;
+    font-weight: bold;
+}

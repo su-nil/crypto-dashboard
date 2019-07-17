@@ -1,0 +1,22 @@
+.Card {
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 1px 1px 23px 1px rgba(211, 211, 211, 0.24);
+    padding: 3px 10px;
+    font-size: 10px;
+    font-weight: bold;
+    color: rgb(140, 140, 140);
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    /* margin-left: 25px; */
+}
+
+.Card>* {
+    margin: 5px;
+}
+
+#debit-card-svg {
+    height: 30px;
+    /* width: auto; */
+}

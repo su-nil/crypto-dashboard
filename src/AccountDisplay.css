@@ -1,0 +1,11 @@
+.AccountDisplay {
+    margin-top: 20px;
+}
+
+.account-disp-title-wrapper {
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+    border-bottom: solid 1px #ddd;
+
+}

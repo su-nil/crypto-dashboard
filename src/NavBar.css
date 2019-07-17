@@ -1,0 +1,17 @@
+.NavBar {
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.NavBar>* {
+    padding: 15px;
+    font-size: 0.7rem;
+    font-weight: bold;
+    margin-left: 50px;
+}
+
+#user>* {
+    font-size: 14px;
+}

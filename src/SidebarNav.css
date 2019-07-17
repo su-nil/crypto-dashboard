@@ -1,0 +1,31 @@
+.sidebar-nav-title-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sidebar-nav-title-wrapper>* {
+    margin: 25px;
+    padding: 5px 5px 5px 0px;
+}
+
+.sidebar-nav-title-wrapper .inactive {
+    color: rgb(140, 140, 140);
+}
+
+.sidebar-nav-title-wrapper .active {
+    border-bottom: solid 2px rgb(226, 112, 62);
+}
+
+.notif-title-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.notif-box {
+    background-color: rgb(226, 112, 62);
+    border-radius: 10px;
+    padding: 5px 8px;
+    color: white;
+    margin-left: 20px;
+}

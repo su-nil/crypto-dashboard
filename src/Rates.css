@@ -1,0 +1,19 @@
+.Rates {
+    grid-area: rates;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.rates-header-wrapper {
+    display: flex;
+}
+
+.title-plus-search {
+    display: flex;
+    align-items: center;
+}
+
+.title-plus-search>* {
+    margin-right: 30px;
+}
